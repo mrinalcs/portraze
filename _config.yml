@@ -2,7 +2,7 @@ url: "https://portraze.vercel.app" # the base hostname & protocol for your site,
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Portraze" # the name of your site, e.g. ACME Corp.
 author:
-  name: Mrinal Chandra Sarkar
+  name: John Smith
   url: https://mrinalcs.github.io
 
 
