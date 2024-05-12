@@ -16,10 +16,23 @@ p:has(> img+img) {
     }
 }
 
+nav {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    font-weight: 900;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+}
 
+main{
+    min-height: 50vh;
+}
 
 footer {
     margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -33,21 +46,4 @@ footer {
     }
 }
 
-
-
-#one {
-    margin-top: 50px;
-    display: flex;
-    gap: 10px;
-    font-weight: 900;
-    justify-content: start;
-    align-content: center;
-    align-items: center;
-}
-
  
-
- 
-   
-  
-  
