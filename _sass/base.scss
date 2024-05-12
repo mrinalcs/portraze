@@ -47,6 +47,7 @@ h5,
 h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+    padding-top: 30px;
 }
 
 /* Reset hyperlink text decoration */
@@ -70,10 +71,11 @@ img {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 
 main,nav,footer {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Merriweather", serif;
 
   max-width: 8in;
   margin: auto;
