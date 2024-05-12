@@ -1,7 +1,16 @@
-url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/new-base-url" # the subpath of your site, e.g. /blog
-title: "ACME Crop" # the name of your site, e.g. ACME Corp.
+url: "https://portraze.vercel.app" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Portraze" # the name of your site, e.g. ACME Corp.
+author:
+  name: Mrinal Chandra Sarkar
+  url: https://mrinalcs.github.io
 
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from 
 
 font: serifs # 'sans-serif' or 'serifs'
 color-scheme: auto # 'auto' 'dark' 'light'
@@ -9,14 +18,15 @@ color-scheme: auto # 'auto' 'dark' 'light'
 nav:
   - title: About
     url: /
-  - title: Blog
-    url: /blog
+  - title: Post
+    url: /post
    
 
 footer:
  enable: true # default true
  text: Copyright &copy; Mrinal
 
+permalink: /:title
 
 collections:
   pages:
@@ -41,3 +51,4 @@ defaults:
         
 exclude:
   - README.md
+  - LICENSE
