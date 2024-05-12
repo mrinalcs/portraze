@@ -14,7 +14,11 @@
 
         # Remove HTML comments
         content.gsub!(/<!--(.*?)-->/m, "")
-   
+        site_url = item.site.config['url']
+
+        content.gsub!('a href="/', "a href=\"#{site_url}/")
+
+
         # Update the item content
         item.output = content
        
