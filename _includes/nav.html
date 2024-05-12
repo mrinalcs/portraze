@@ -1,8 +1,8 @@
  
 
 <nav>
-    <a href="/">{{site.author.name}}</a>
+    <a href="{{ "/" | relative_url}}">{{site.author.name}}</a>
     {% for item in site.nav %}
-    /<a href="{{ item.url }}">{{ item.title }}</a>
+    /<a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% endfor %}
 </nav>

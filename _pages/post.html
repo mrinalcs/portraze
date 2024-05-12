@@ -12,7 +12,7 @@ title: Post
   <ul class="post-list">
     {% for post in year_group.items %}
       <li>
-        <a href="{{ post.url }}">
+        <a href="{{ post.url | relative_url }}">
           <div>
             {{ post.title }}
         <p>{{ page.date | date: "%d %b" }}</p>
