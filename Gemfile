@@ -8,4 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-auto-image'
   gem 'jekyll-paginate'
+  gem 'jekyll-minifier'
+
 end

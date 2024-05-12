@@ -11,6 +11,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from 
+  - jekyll-minifier
 
 font: serifs # 'sans-serif' or 'serifs'
 color-scheme: auto # 'auto' 'dark' 'light'
