@@ -1,6 +1,15 @@
 # portraze
 A sleek Jekyll portfolio template for showcasing your work with simplicity.
 
+## Preview
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c95c1a1-2a39-4e89-aefc-6b98ed7afb9b/deploy-status)](https://app.netlify.com/sites/portraze/deploys)
+
+[https://portraze.netlify.app](https://portraze.netlify.app/)
+
+[https://portraze.vercel.app](https://portraze.vercel.app/)
+
+
 ## Features
 
 - Minimalist design
