@@ -26,6 +26,10 @@ nav {
     align-items: center;
 }
 
+header {
+    margin: 30px 0;
+}
+
 main{
     min-height: 50vh;
     .post-list{
@@ -42,6 +46,10 @@ main{
             border-top: solid #dcdfe4 1px;
         }
     }
+}
+
+article{
+    padding: 30px 0;
 }
 
 footer {
