@@ -7,6 +7,11 @@
         content.gsub!(/<table(.*?)>/m, '<div class="table"><table\1>')
         content.gsub!(/<\/table>/m, '</table></div>')
   
+
+
+         # Convert <p><img> to <figure><img><figcaption>
+      content.gsub!(/<p><img(.*?)alt="(.*?)"(.*?)title="(.*?)"(.*?)><\/p>/m, '<figure><img\1 alt="\2"\3 title="\4"\5><figcaption>\4</figcaption></figure>')
+
         # Remove HTML comments
         content.gsub!(/<!--(.*?)-->/m, "")
    
