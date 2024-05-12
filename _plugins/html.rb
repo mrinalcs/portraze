@@ -1,6 +1,7 @@
 [:posts, :pages].each do |hook|
     Jekyll::Hooks.register hook, :post_render do |item|
-         content = item.output
+      if ENV['JEKYLL_ENV'] == 'production' && item.output_ext == ".html"
+        content = item.output
   
         # Remove HTML comments
         content.gsub!(/<!--(.*?)-->/m, "")
@@ -17,7 +18,7 @@
         content.gsub!(/>[[:space:]]+{/, '>{')   # Remove spaces between ">" and "{"
           
         # Replace img src="/ with absolute path
-        content.gsub!('img src="/', 'img src="https://mrinalcs.github.io/')
+        content.gsub!('img src="/', "img src=\"#{item.site.config['url']}/")
   
         # Replace a href="/ with site url
         content.gsub!('a href="/', "a href=\"#{item.site.config['url']}/")
@@ -43,4 +44,5 @@
         # Update the item content
         item.output = content
       end
-   end
+    end
+  end
