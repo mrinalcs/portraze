@@ -1,9 +1,69 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+/* Box sizing border-box reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles (bullet points and default padding) */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Set base font size and line height */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Reset heading margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Reset hyperlink text decoration */
+a {
+    text-decoration: none;
+}
+
+/* Set default cursor */
+button,
+input,
+select,
+textarea {
+    cursor: pointer;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
 }
