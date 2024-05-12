@@ -52,7 +52,14 @@ h6 {
 
 /* Reset hyperlink text decoration */
 a {
-    text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #dcdfe4;
+
+    color: inherit;
+    &:hover{
+      color: initial;
+    }
 }
 
 /* Set default cursor */
