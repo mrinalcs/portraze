@@ -3,7 +3,7 @@ title: Typography
 ---
 
 
-In the world of content creation, mastering typography is essential for effectively conveying your message. By utilizing a variety of text formatting options, you can enhance the visual appeal and readability of your content. From headings to images, let's explore how different typographic elements can elevate your writing.
+In the [world](/wold) of `content creation`, ~~typography~~ is *essential* for **effectively** conveying your message. By utilizing a variety of text formatting options, you can enhance the visual appeal and readability of your content. From headings to images, let's explore how different typographic elements can elevate your writing.
 
 ## Headings
 
@@ -21,7 +21,7 @@ In the world of content creation, mastering typography is essential for effectiv
 
 ## Images
 
-![Image Caption](https://res.cloudinary.com/dsgszlxeu/image/upload/v1708235068/mrinalcs/rampurhat-factory-view-from-train_gdaypr.jpg)
+![Image Caption](https://res.cloudinary.com/dsgszlxeu/image/upload/v1708235068/mrinalcs/rampurhat-factory-view-from-train_gdaypr.jpg "This is caption")
 
 ## Code
 
