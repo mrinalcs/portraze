@@ -1,5 +1,5 @@
 ---
-title: "Less is More in the World of Creative Expression"
+title: Strategies for Efficient Code Troubleshooting
 ---
 
 Neque ducimus sequi aspernatur nihil omnis ipsum sit ea.
