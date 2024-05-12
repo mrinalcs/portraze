@@ -29,12 +29,17 @@ nav {
 main{
     min-height: 50vh;
     .post-list{
-
-        li{
-            margin-top: 10px;
+        padding-inline-start: 0;
+        list-style: none;
+        li{ 
+            padding: 10px 0; 
+            border-bottom: solid #dcdfe4 1px;
             a{
                 text-decoration: none;
             }
+        }
+        li:first-child {
+            border-top: solid #dcdfe4 1px;
         }
     }
 }
