@@ -3,21 +3,17 @@
     <div>
         <h3>index</h3>
         <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/resume">Résumé</a></li>
-            <li><a href="/colophon">Colophon</a></li>
-            <li><a href="/salary">Salary</a></li>
+            {% for page in site.pages %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endfor %}
           </ul>
     </div>
     <div>
-        <h3>Hello</h3>
+        <h3>Social</h3>
         <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/resume">Résumé</a></li>
-            <li><a href="/colophon">Colophon</a></li>
-            <li><a href="/salary">Salary</a></li>
+            {% for item in site.social %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
           </ul>
     </div>
 </footer>

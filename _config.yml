@@ -27,6 +27,17 @@ footer:
  enable: true # default true
  text: Copyright &copy; Mrinal
 
+
+social:
+  - title: Twitter
+    url: https://twitter.com/example
+  - title: Facebook
+    url: https://facebook.com/example
+  - title: Instagram
+    url: https://instagram.com/example
+
+
+
 permalink: /:title
 
 collections:
