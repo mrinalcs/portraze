@@ -91,3 +91,63 @@ Make any link standout more when applying the `.btn` class.
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
+
+
+
+
+
+
+
+
+
+
+
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+
+
+
+![ali](https://res.cloudinary.com/dsgszlxeu/image/upload/c_thumb,g_center,h_200,w_200/v1708235172/mrinalcs/0.44.33_ea65bc6f_tqphid.jpg)
+![ali](https://res.cloudinary.com/dsgszlxeu/image/upload/v1708235068/mrinalcs/rampurhat-factory-view-from-train_gdaypr.jpg?ref=mrinalcs.github.io)
+
+
+
+![ali](https://res.cloudinary.com/dsgszlxeu/image/upload/c_thumb,g_center,h_200,w_200/v1708235172/mrinalcs/0.44.33_ea65bc6f_tqphid.jpg)
+
+
+
+
+![ali](https://res.cloudinary.com/dsgszlxeu/image/upload/v1708235068/mrinalcs/rampurhat-factory-view-from-train_gdaypr.jpg?ref=mrinalcs.github.io)
+
+
+
+**Bold text**
+*Italic text*
+~~Strikethrough text~~
+
+
+> This is a blockquote.
+
+[Link text](http://example.com)
+
+- Unordered item 1
+- Unordered item 2
+
+1. Ordered item 1
+2. Ordered item 2
+
+
+## Code
+
+```
+**Bold text**
+*Italic text*
+~~Strikethrough text~~function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+// This will throw an error at compile time, preventing potential runtime issues.
+let message: string = greet(123);
+```
