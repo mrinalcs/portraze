@@ -1,3 +1,43 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/new-base-url" # the subpath of your site, e.g. /blog
+title: "ACME Crop" # the name of your site, e.g. ACME Corp.
+
+
+font: serifs # 'sans-serif' or 'serifs'
+color-scheme: auto # 'auto' 'dark' 'light'
+
+nav:
+  - title: About
+    url: /
+  - title: Blog
+    url: /blog
+   
+
+footer:
+ enable: true # default true
+ text: Copyright &copy; Mrinal
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      render_with_liquid: false
+      toc: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      seo:
+        type: WebPage
+        
+exclude:
+  - README.md
