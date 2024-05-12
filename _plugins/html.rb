@@ -1,7 +1,6 @@
 [:posts, :pages].each do |hook|
     Jekyll::Hooks.register hook, :post_render do |item|
-      if ENV['JEKYLL_ENV'] == 'production' && item.output_ext == ".html"
-        content = item.output
+         content = item.output
   
         # Remove HTML comments
         content.gsub!(/<!--(.*?)-->/m, "")
@@ -44,5 +43,4 @@
         # Update the item content
         item.output = content
       end
-    end
-  end
+   end
